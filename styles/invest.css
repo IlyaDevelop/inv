@@ -337,11 +337,11 @@
     flex-direction: column;
     margin-left: 90px;
     margin-top: 0px;
-    padding-left: 130px !important; }
+    padding-left: 280px !important; }
     body .slide_card h4 {
       font-size: 14px; }
     body .slide_card .name {
-      width: 100px; }
+      width: 120px; }
     body .slide_card img {
       width: 45px;
       height: 50px;
@@ -407,9 +407,13 @@
     margin-left: 0px; }
   footer .foot_title p {
     font-size: 13px !important;
-    line-height: 22px !important; } }
+    line-height: 22px !important; }
+  .slick-track {
+    width: 4200px !important; } }
 
 @media (max-width: 400px) {
+  .slick-track {
+    width: 3900px !important; }
   body .slide_card {
     width: 320px !important;
     display: -webkit-box;
@@ -421,7 +425,7 @@
     flex-direction: column;
     margin-left: 80px;
     margin-top: 0px;
-    padding-left: 30px !important; }
+    padding-left: 250px !important; }
     body .slide_card h4 {
       font-size: 14px; }
     body .slide_card .name {
@@ -530,6 +534,8 @@
     margin-left: 0px !important; } }
 
 @media (max-width: 375px) {
+  .slick-track {
+    width: 3600px !important; }
   body .slide_card {
     width: 320px !important;
     display: -webkit-box;
@@ -541,7 +547,7 @@
     flex-direction: column;
     margin-left: 60px;
     margin-top: 0px;
-    padding-left: 30px !important; }
+    padding-left: 250px !important; }
     body .slide_card h4 {
       font-size: 14px; }
     body .slide_card .name {
@@ -563,6 +569,8 @@
       padding-top: 20px; } }
 
 @media (max-width: 320px) {
+  .slick-track {
+    width: 2900px !important; }
   body .slide_card {
     width: 220px !important;
     display: -webkit-box;
@@ -572,9 +580,9 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 0px;
-    padding-left: 30px !important; }
+    padding-left: 120px !important; }
     body .slide_card h4 {
       font-size: 14px; }
     body .slide_card .name {
